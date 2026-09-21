@@ -1,4 +1,4 @@
-#include "PuzzleState.h"
+#include "PuzzleState.hpp"
 
 #include <iostream>
 #include <functional>
