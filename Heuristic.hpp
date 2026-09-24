@@ -5,11 +5,13 @@
 
 enum class HeuristicType {
     MisplacedTiles,
-    Manhattan
+    Manhattan,
+    ManhattanLinearConflict
 };
 
 int misplacedTiles(const PuzzleState& state);
 int manhattanDistance(const PuzzleState& state);
+int manhattanLinearConflict(const PuzzleState& state);
 
 int heuristic(
     const PuzzleState& state,

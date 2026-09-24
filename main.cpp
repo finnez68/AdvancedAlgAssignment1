@@ -113,6 +113,7 @@ int main()
                 cout << "\n";
                 cout << "1. Misplaced tiles\n";
                 cout << "2. Manhattan distance\n";
+                cout << "3. Manhattan-linear conflict\n";
                 cout << "Choice: ";
 
                 int heuristicChoice;
@@ -129,6 +130,11 @@ int main()
                         HeuristicType::Manhattan;
 
                     cout << "Using Manhattan distance.\n";
+                }
+                else if (heuristicChoice == 3){
+                    heuristicType =
+                        HeuristicType::ManhattanLinearConflict;
+                    cout << "Using Manhattan-linear conflict.\n";
                 }
                 else {
                     cout << "Invalid choice.\n";
