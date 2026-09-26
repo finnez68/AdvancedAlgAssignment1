@@ -258,6 +258,17 @@ h(n) = sum of Manhattan distances for all tiles
 
 The blank space is ignored.
 
+#### Manhattan-Linear Conflict 
+
+Calculates the total number of horizontal and vertical moves each tile is away from its goal position. 
+Also considers that swapping 2 adjacent tiles requires 2 moves, not just 1.
+
+```text
+h(n) = sum of Manhattan distances for all tiles
+```
+
+The blank space is ignored.
+
 ---
 
 ### Solving
