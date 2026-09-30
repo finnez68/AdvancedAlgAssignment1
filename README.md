@@ -24,10 +24,11 @@ The project was developed as an algorithm implementation project and focuses on 
 
 * A* search algorithm
 * 4 × 4 15-puzzle representation
-* Two heuristic functions:
+* Three heuristic functions:
 
   * Misplaced tiles
   * Manhattan distance
+  * Manhattan-linear conflict
 * Solvability checking using inversion count and blank-row position
 * Random solvable puzzle generation
 * Manual puzzle input
@@ -92,6 +93,7 @@ Contains the heuristic functions used by A*:
 
 * Misplaced tiles
 * Manhattan distance
+* Manhattan-linear conflict
 
 ### `Solvability`
 
